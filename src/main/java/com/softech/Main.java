@@ -1,7 +1,20 @@
 package com.softech;
 
 public class Main {
-    public static void main(String[] args){
-        System.out.println("hello world");
+    public static void main(String[] args) {
+        int myVariable = 50;
+
+        if (myVariable == 50) {
+            System.out.println("Printed");
+        }
+
+        myVariable++;
+        myVariable--;
+
+        System.out.println("This is a test");
+
+        System.out.println("This is" +
+                " another" +
+                " still more");
     }
 }
